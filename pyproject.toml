@@ -1,7 +1,16 @@
 [project]
-name = "proxy-checker"
+name = "proxy-service"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+  "aiohttp>=3.12.15",
+  "aiohttp-socks>=0.10.1",
+  "fastapi>=0.116.1",
+  "loguru>=0.7.3",
+  "pydantic-settings>=2.10.1",
+  "python-dotenv>=1.1.1",
+  "requests>=2.32.4",
+  "uvicorn>=0.35.0",
+]
